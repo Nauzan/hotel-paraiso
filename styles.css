@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+    background-color: #06960691; /* Verde */
+    color: rgb(250, 249, 245);
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.logo {
+    width: 80px;
+    height: auto;
+}
+
+/* Navegación */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(245, 244, 236);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Secciones */
+section {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-image, .about-image, .services-image, .contact-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#home {
+    background-color: #f8f7f1; /* Amarillo */
+    color: black;
+}
+
+#about, #services, #contact {
+    background-color: #f4f4f4;
+    border: 2px solid black;
+}
+
+/* Formulario de contacto */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #006400;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 50%;
+    max-width: 200px;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+/* Pie de página */
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
