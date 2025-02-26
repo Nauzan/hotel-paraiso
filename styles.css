@@ -2,12 +2,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #4347fa;
 }
 
 /* Encabezado */
 header {
-    background-color: #06960691; /* Verde */
+    background-color: #4347fa; /* Verde */
     color: rgb(250, 249, 245);
     padding: 20px;
     text-align: center;
@@ -79,7 +79,7 @@ input {
     padding: 10px;
     width: 80%;
     max-width: 400px;
-    border: 1px solid #006400;
+    border: 1px solid #4347fa;
 }
 
 button {
@@ -98,7 +98,7 @@ button:hover {
 
 /* Pie de página */
 footer {
-    background-color: #006400;
+    background-color: #4347fa;
     color: white;
     text-align: center;
     padding: 10px;
